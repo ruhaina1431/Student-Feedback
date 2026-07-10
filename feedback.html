@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Student Feedback</title>
+
+<link rel="stylesheet" href="feedback.css">
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+
+
+<div class="card">
+
+
+<h1>
+Student Feedback
+</h1>
+
+
+<p>
+Share your learning experience
+</p>
+
+
+
+<form id="feedbackForm">
+
+
+<input
+id="studentId"
+placeholder="Student ID"
+required>
+
+
+<input
+id="name"
+placeholder="Full Name"
+required>
+
+
+<select id="branch" required>
+
+<option value="">
+Select Branch
+</option>
+
+<option>CSE</option>
+
+<option>IT</option>
+
+<option>ECE</option>
+
+<option>Mechanical</option>
+
+<option>Civil</option>
+
+</select>
+
+
+
+
+<div class="rating">
+
+
+<input type="radio" name="star" value="5" id="s5">
+<label for="s5">★</label>
+
+
+<input type="radio" name="star" value="4" id="s4">
+<label for="s4">★</label>
+
+
+<input type="radio" name="star" value="3" id="s3">
+<label for="s3">★</label>
+
+
+<input type="radio" name="star" value="2" id="s2">
+<label for="s2">★</label>
+
+
+<input type="radio" name="star" value="1" id="s1">
+<label for="s1">★</label>
+
+
+</div>
+
+
+
+<textarea
+id="feedback"
+placeholder="Write your feedback..."
+required></textarea>
+
+
+
+<button>
+Submit Feedback
+</button>
+
+
+</form>
+
+
+<h3 id="message"></h3>
+
+
+</div>
+
+</div>
+
+
+
+<script src="feedback.js"></script>
+
+
+</body>
+</html>
