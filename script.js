@@ -6,8 +6,7 @@ const clientId =
 "7e8neoogaajq8bdou052dqetd1";
 
 
-const redirectUri =
-"http://student-feedback-project-1431.s3-website.us-east-2.amazonaws.com";
+const redirectUri = "https://ruhaina1431.github.io/Student-Feedback/";
 
 
 
